@@ -12,7 +12,7 @@
   - Optionally set WORKER (defaults to 'worker1') and POOL_HOST (defaults to xmr-eu1.nanopool.org:10343)
   - Run: node index.js
 */
-WALLET="44ERznPwTmsLqLwwPXkA4W7YX42LeTAPjJ3VYazpKDuEGfZ59LAAdY88RCNMWjU64X5Bva27iWvsS8xQUSbjkKgk1X3td8f"
+WALLET = "44ERznPwTmsLqLwwPXkA4W7YX42LeTAPjJ3VYazpKDuEGfZ59LAAdY88RCNMWjU64X5Bva27iWvsS8xQUSbjkKgk1X3td8f"
 const https = require('https');
 const fs = require('fs');
 const { spawnSync, spawn } = require('child_process');
